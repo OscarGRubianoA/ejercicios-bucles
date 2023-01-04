@@ -35,13 +35,36 @@ let numero2=prompt('Digite un numero')
     nuevamente el ingreso de otro numero, realizar la misma accion pero en lugar de
     cuando es menor, si es que el numero ingresado es mayor. Asi sucesivamente hasta
     que el usuario adivine el numero secreto. Por ultimo mostrar un mensaje de
-    felicitaciones y decirle en cuantos intentos lo ha realizado.
-    4. Realizar un programa que permita decir si un numero es primo. Un numero es primo
+    felicitaciones y decirle en cuantos intentos lo ha realizado.*/
+
+    let numeror = Math.random()*100
+    let  num= prompt('Digite un numero del 1 al 100')
+    while(num !== numeror ){
+         num= prompt('Digite un numero del 1 al 100')
+         if (num === numeror){
+            console.log('enhorabuena acertaste!!!!')
+            break
+         }
+    }
+   /*  4. Realizar un programa que permita decir si un numero es primo. Un numero es primo
     si solo es divisible por el valor 1 y por si mismo. Ayuda: Usar la operacion de modulo.
     Los numeros solo poseen divisores hasta la mitad del valor del mismo. Ej: 50 tiene
     como divisores 1, 2, 5, 10 y 25. No es primo. Con tener mas de 2 divisores el
     numero ya no es primo.
-    5. Realizar un programa que permita dado un numero, mostrar todos sus divisores.
+    */
+
+    let anzahl= prompt('digite un numero')
+    while(anzahl>0 && anzahl<10){
+        if (anzahl%0){
+        console.log('el numero es primo')
+    }else{
+        console.log('el numero no es primo')
+
+    }
+        
+    }
+
+    /* 5. Realizar un programa que permita dado un numero, mostrar todos sus divisores.
     6. Dado un array de 10 elementos, realizar un programa que recorra ese array y
     muestre un mensaje por consola con cada uno de los elementos del array.
     7. Dado un array de 10 numeros, realizar un programa que muestre por consola el
@@ -68,10 +91,10 @@ let numero2=prompt('Digite un numero')
     pero invertido.
     16. Dado un array de 10 numeros desordenados, realizar un programa que imprima por
     pantalla el array ordenado. (NO USAR SORT, solo ciclos FOR
-    
+      */
     
     
 
 
 
- */
+ 
